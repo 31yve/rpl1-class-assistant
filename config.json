@@ -3,7 +3,7 @@
     "prefix": "!",
     "welcome_channel_name": "welcomebye",
     "announcement_channel_name": "pengumuman-penting",
-    "announcement_channel_id": "1394649989220663377",
+    "announcement_channel_id": "aaa",
     "main_discussion_channel_name": "diskusi-umum-pelajaran",
     "rules_channel_name": "rules",
     "resources_channel_name": "sumber-daya",
@@ -52,8 +52,8 @@
   },
   "poll_emojis": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣"],
   "spotify": {
-    "client_id": "d334a4bc96a647ed8db6ccfe4c1d181d",
-    "client_secret": "c696321818f14d8ebebf1959a983a72e"
+    "client_id": "aaaaaa",
+    "client_secret": "aaa"
   },
   "reaction_roles": [
     {
