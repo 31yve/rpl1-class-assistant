@@ -8,7 +8,7 @@ const path = require('node:path');
 const CLIENT_ID = process.env.CLIENT_ID;
 // GANTI 'YOUR_GUILD_ID' dengan ID server Discord Anda.
 // Aktifkan Developer Mode di Discord (User Settings -> Advanced), lalu klik kanan server -> Copy ID.
-const GUILD_ID = '1394605573219287110'; 
+const GUILD_ID = 'GANTI UID SERVER'; 
 
 const commands = [];
 // Ambil semua folder command dari direktori commands (info, admin, slash, dll.)
