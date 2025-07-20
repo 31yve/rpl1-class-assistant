@@ -1,0 +1,69 @@
+{
+  "general": {
+    "prefix": "!",
+    "welcome_channel_name": "welcomebye",
+    "announcement_channel_name": "pengumuman-penting",
+    "announcement_channel_id": "1394649989220663377",
+    "main_discussion_channel_name": "diskusi-umum-pelajaran",
+    "rules_channel_name": "rules",
+    "resources_channel_name": "sumber-daya",
+    "code_review_channel_name": "proyek-kelompok",
+    "study_group_channel_name": "diskusi-umum-pelajaran",
+    "reminder_channel_name": "pengumuman-penting",
+    "default_member_role_id": "YOUR_DEFAULT_MEMBER_ROLE_ID",
+    "reaction_role_channel_name": "rules",
+    "admin_role_id": "YOUR_ADMIN_ROLE_ID",
+    "teacher_role_id": "YOUR_TEACHER_ROLE_ID",
+    "mentor_role_id": "YOUR_MENTOR_ROLE_ID"
+  },
+  "info_commands": {
+    "jadwal_pelajaran": {
+      "title": "**Jadwal Pelajaran RPL 1:**",
+      "description": "Senin: Pemrograman Dasar (08:00 - 10:00)\nSelasa: Basis Data (10:00 - 12:00)\nRabu: Desain Web (08:00 - 10:00)\nKamis: Algoritma (13:00 - 15:00)\nJumat: Proyek Kelompok (09:00 - 11:00)"
+    },
+    "link_lms": {
+      "description": "Link LMS Kelas RPL 1: [https://lms.contohkampus.ac.id/rpl1](https://lms.contohkampus.ac.id/rpl1)"
+    },
+    "sumber_daya": {
+      "title": "Kumpulan Sumber Daya Belajar:",
+      "description": "- Dokumentasi JavaScript: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)\n- Tutorial Node.js: [https://nodejs.org/en/docs/guides/](https://nodejs.org/en/docs/guides/)\n- W3Schools: [https://www.w3schools.com/](https://www.w3schools.com/)"
+    }
+  },
+  "welcome_message": {
+    "text": "Selamat datang di server kelas RPL 1, {member.mention}! 🎉\nSilakan baca <#{rules_channel}> dan cek <#{announcement_channel}> untuk info terbaru.\nJika ada pertanyaan, jangan ragu bertanya di <#{discussion_channel}>."
+  },
+  "goodbye_message": {
+    "text": "{member.tag} telah meninggalkan server. Sampai jumpa lagi! 👋"
+  },
+  "leveling_system": {
+    "xp_min_per_message": 15,
+    "xp_max_per_message": 25,
+    "xp_cooldown_seconds": 60,
+    "level_up_message": "Selamat {member.mention}! Kamu telah naik ke **Level {level}**! 🎉 Terus semangat belajar dan berkontribusi!"
+  },
+  "roles": {
+    "admin_role_id": "YOUR_ADMIN_ROLE_ID",
+    "teacher_role_id": "YOUR_TEACHER_ROLE_ID",
+    "mentor_role_id": "YOUR_MENTOR_ROLE_ID"
+  },
+  "code_executor": {
+    "piston_api_url": "https://emkc.org/api/v2/piston/execute",
+    "supported_languages_info": "python, javascript, java, c, cpp, go, rust, php, ruby, csharp"
+  },
+  "poll_emojis": ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣"],
+  "spotify": {
+    "client_id": "d334a4bc96a647ed8db6ccfe4c1d181d",
+    "client_secret": "c696321818f14d8ebebf1959a983a72e"
+  },
+  "reaction_roles": [
+    {
+      "message_id": "YOUR_REACTION_ROLE_MESSAGE_ID",
+      "channel_id": "YOUR_REACTION_ROLE_CHANNEL_ID",
+      "roles_map": {
+        "✅": "YOUR_STUDENT_ROLE_ID",
+        "👨‍💻": "YOUR_RPL_STUDENT_ROLE_ID"
+      },
+      "description": "Klik emoji untuk mendapatkan peran Anda!"
+    }
+  ]
+}

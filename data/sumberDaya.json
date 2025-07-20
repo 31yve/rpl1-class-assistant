@@ -1,0 +1,12 @@
+[
+  {
+    "nama": "Modul Algoritma",
+    "link": "https://example.com/modul-algoritma.pdf",
+    "deskripsi": "Modul dasar algoritma dan struktur data."
+  },
+  {
+    "nama": "Video Python Dasar",
+    "link": "https://youtube.com/playlist/python-dasar",
+    "deskripsi": "Playlist video tutorial Python untuk pemula."
+  }
+]
