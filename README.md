@@ -97,8 +97,6 @@ Ikuti langkah-langkah di bawah ini untuk menjalankan bot Anda:
 git clone https://github.com/31yve/rpl1-class-assistant
 ````
 
-*(Ganti `USERNAME` dengan username GitHub Anda.)*
-
 ### 2\. Konfigurasi Kredensial & Data
 
 1.  **Buat file bernama `.env`** di root folder proyek Anda dan isi dengan token bot Discord serta Client ID aplikasi bot Anda:
